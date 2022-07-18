@@ -67,6 +67,9 @@ h6 {
 img {
   vertical-align: top;
 }
+svg {
+  vertical-align: bottom;
+}
 html,
 body {
   height: 100%;

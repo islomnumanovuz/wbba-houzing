@@ -11,6 +11,7 @@ import {
 import { ReactComponent as LogoImg } from "../../assets/svg/logo.svg";
 import { navbar } from "../../utils/navbar";
 import { useNavigate, Outlet } from "react-router-dom";
+import { Button } from "../../pages/Generic/Button";
 
 export const Navbar = () => {
   const navigate = useNavigate();
@@ -34,7 +35,16 @@ export const Navbar = () => {
                 );
               })}
             </NavItems>
-            <button>Log in</button>
+            <Button
+              color={"#fff"}
+              pt={12}
+              pb={12}
+              pr={40}
+              pl={40}
+              type={"secondary"}
+            >
+              Login
+            </Button>
           </NavWrapper>
         </Container>
       </Wrapper>
